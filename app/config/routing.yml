@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type: rest
+    prefix: /api
+
+api_login_check:
+    path: /api/login_check
